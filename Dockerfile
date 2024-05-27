@@ -11,7 +11,7 @@ ENV SUNMARY="测试" \
 # For local testing
 #RUN installUtility install --acceptLicense --to=usr /config
 RUN installUtility install defaultServer
-RUN featureUtility installFeature adminCenter-1.0
+#RUN featureUtility installFeature adminCenter-1.0
 
 # 安装中文语言
 RUN apt-get update
